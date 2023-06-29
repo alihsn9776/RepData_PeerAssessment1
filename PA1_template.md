@@ -72,7 +72,7 @@ hist(x = tot_daily_steps$Total, breaks = nrow(tot_daily_steps), freq = TRUE,
      xlab = "Total Daily Steps", main = "Steps Frequencies")
 ```
 
-![plot of chunk unnamed-chunk-13](figure/unnamed-chunk-13-1.png)
+![plot of chunk unnamed-chunk-13](unnamed-chunk-13-1.png)
 
 
 ## Daily steps mean and median
@@ -124,7 +124,7 @@ head(interval_data)
 plot(x = interval_data$interval, y = interval_data$mean, type = "l")
 ```
 
-![plot of chunk unnamed-chunk-15](figure/unnamed-chunk-15-1.png)
+![plot of chunk unnamed-chunk-15](unnamed-chunk-15-1.png)
 
 So let's find out the interval wit the most average steps in day and extract its value.
 
@@ -198,7 +198,7 @@ hist(x = imput_tot_steps$Total, breaks = nrow(imput_tot_steps), freq = TRUE,
      xlab = "Total Daily Steps", main = "Steps Frequencies")
 ```
 
-![plot of chunk unnamed-chunk-19](figure/unnamed-chunk-19-1.png)
+![plot of chunk unnamed-chunk-19](unnamed-chunk-19-1.png)
 
 As we see, the histogram looks like a bell curve right now.
 Let's calculate the new mean and median for each day and figure out whethere there is a difference or not!
@@ -303,6 +303,6 @@ plot(x = imp_interval_wkday$interval, y = imp_interval_wkday$Mean, type = "l", m
 plot(x = imp_interval_wknd$interval, y = imp_interval_wknd$Mean, type = "l", main = "Weekends", ylim = c(0,250), ylab = "Average Steps", xlab = "Intervals")
 ```
 
-![plot of chunk unnamed-chunk-24](figure/unnamed-chunk-24-1.png)
+![plot of chunk unnamed-chunk-24](unnamed-chunk-24-1.png)
 
 Thank You!
